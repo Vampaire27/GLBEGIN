@@ -1,8 +1,9 @@
-package com.wwc2.glbegin;
+package com.wwc2.glbegin.base;
 
 import android.opengl.GLES30;
 import android.opengl.GLSurfaceView;
 
+import com.wwc2.glbegin.R;
 import com.wwc2.glbegin.SharderUtils.ResReadUtils;
 import com.wwc2.glbegin.SharderUtils.ShaderUtils;
 

@@ -3,6 +3,7 @@ package com.wwc2.glbegin;
 import android.app.Application;
 
 import com.wwc2.glbegin.core.AppCore;
+import com.wwc2.glbegin.core.router.PageRouter;
 
 
 /**
@@ -16,5 +17,6 @@ public class BaseApplication extends Application {
     public void onCreate() {
         super.onCreate();
         AppCore.getInstance().init(this);
+        PageRouter.getInstance().init(this);
     }
 }
