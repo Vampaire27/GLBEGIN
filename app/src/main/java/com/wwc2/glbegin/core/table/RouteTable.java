@@ -13,11 +13,6 @@ public interface RouteTable {
     String PAGE_BASIS = "/basis/page_basis";
 
     /**
-     * 基本颜色显示
-     */
-    String PAGE_COLOR = "/color/page_color";
-
-    /**
      * native层实现
      */
     String PAGE_NATIVE = "/native/page_native";

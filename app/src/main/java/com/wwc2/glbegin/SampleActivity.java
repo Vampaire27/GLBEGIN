@@ -27,27 +27,10 @@ public class SampleActivity extends AppCompatActivity {
         PageRouter.getInstance().routeBasisPage();
     }
 
-    public void onColorClick(View view) {
-        PageRouter.getInstance().routePage(RouteTable.PAGE_COLOR);
-    }
-
-    /**
-     * 基于JNI实现的OpenGLES相关操作
-     *
-     * @param view
-     */
-    public void onNativeClick(View view) {
-        PageRouter.getInstance().routePage(RouteTable.PAGE_NATIVE);
-    }
-
-    /**
-     * 图片纹理处理
-     *
-     * @param view
-     */
     public void onTextureClick(View view) {
         PageRouter.getInstance().routePage(RouteTable.PAGE_TEXTURE);
     }
+
 
     /**
      * 黑白相机实现
@@ -55,7 +38,7 @@ public class SampleActivity extends AppCompatActivity {
      * @param view
      */
     public void onCameraClick(View view) {
-        PageRouter.getInstance().routePage(RouteTable.PAGE_CAMERA);
+//        PageRouter.getInstance().routePage(RouteTable.PAGE_CAMERA);
     }
 
     /**
@@ -64,6 +47,6 @@ public class SampleActivity extends AppCompatActivity {
      * @param view
      */
     public void onFilterClick(View view) {
-        PageRouter.getInstance().routePage(RouteTable.PAGE_FILTER);
+//        PageRouter.getInstance().routePage(RouteTable.PAGE_FILTER);
     }
 }
