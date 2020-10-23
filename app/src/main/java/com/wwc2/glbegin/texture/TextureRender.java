@@ -130,7 +130,7 @@ public class TextureRender implements GLSurfaceView.Renderer {
         GLES30.glVertexAttribPointer(0,3,GLES30.GL_FLOAT,false,0,vertexBuffer);
 
         GLES30.glEnableVertexAttribArray(1);
-        GLES30.glVertexAttribPointer(0,2,GLES30.GL_FLOAT,false,0,mTexVertexBuffer);
+        GLES30.glVertexAttribPointer(1,2,GLES30.GL_FLOAT,false,0,mTexVertexBuffer);
 
         GLES30.glActiveTexture(GLES30.GL_TEXTURE0);
         GLES30.glBindTexture(GLES30.GL_TEXTURE_2D,textureId);
