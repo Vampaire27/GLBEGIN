@@ -47,6 +47,6 @@ public class SampleActivity extends AppCompatActivity {
      * @param view
      */
     public void onFilterClick(View view) {
-//        PageRouter.getInstance().routePage(RouteTable.PAGE_FILTER);
+        PageRouter.getInstance().routePage(RouteTable.PAGE_FILTER);
     }
 }
